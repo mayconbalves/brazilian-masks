@@ -1,0 +1,8 @@
+{
+  "name": "brazilian-mask",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mayconbalves/brazilian-mask.git",
+  "author": "mayconbalves <mayconmustaine@hotmail.com>",
+  "license": "MIT"
+}
