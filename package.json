@@ -6,6 +6,7 @@
   "author": "mayconbalves <mayconmustaine@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.16.0"
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0"
   }
 }
