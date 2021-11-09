@@ -5,7 +5,7 @@
   "repository": "git@github.com:mayconbalves/brazilian-mask.git",
   "author": "mayconbalves <mayconmustaine@hotmail.com>",
   "license": "MIT",
-  "scrips": {
+  "scripts": {
     "dev": "watch 'npm run build' src",
     "build": "babel src -d build",
     "prepublish": "npm run build"
