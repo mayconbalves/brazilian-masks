@@ -4,15 +4,11 @@
 $ npm install brazilian-mask --save
 ```
 
-```shell
-$ yarn add brazilian-mask
-```
-
 ```javascript
-const { cpfMask } = require('sensitive-words')
+const { cpfMask } = require('brazilian-mask')
 
 // ES2015 modules
-import { cpfMask } from 'sensitive-words'
+import { cpfMask } from 'brazilian-mask'
 
 const mask = cpfMask('11111111111')
 
