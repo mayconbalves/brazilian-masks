@@ -1,4 +1,4 @@
-import cpfMask from '.'
+import cpfMask from './cpf-mask'
 
 test('format cpf', () => (
 	expect(cpfMask('11111111111'))
