@@ -1,4 +1,4 @@
-# `brazilian-mask`
+# `brazilian-masks`
 
 ## Installation
 
