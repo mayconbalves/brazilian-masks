@@ -1,17 +1,37 @@
-# Example
+# `brazilian-mask`
 
-```shell
-$ npm install brazilian-mask --save
+## Installation
+
+You can install it with *npm* or *yarn*.
+
+Try:
+
+- *npm*: `npm install cpf`
+- *yarn*: `yarn add cpf`
+
+## Usage
+
+```js
+const cpfMask = require('brazilian-mask');
 ```
 
-```javascript
-const { cpfMask } = require('brazilian-mask')
+Now, `CPF` is a function to:
 
-// ES2015 modules
-import { cpfMask } from 'brazilian-mask'
+- `format`
 
-const mask = cpfMask('11111111111')
+#### Example
 
-console.log(mask)
-// 111.111.111-11
+```js
+cpfMask('11144477735');
+//=> '111.444.777-35'
 ```
+
+#### Parameters
+
+- `cpf` {*string*} A CPF number.
+
+Returns a string with the formatted CPF number.
+
+## License
+
+MIT &copy; Maycon Alves
