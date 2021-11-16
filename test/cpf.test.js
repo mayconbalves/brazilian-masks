@@ -1,4 +1,4 @@
-import cpfMask from '../src/cpf-mask'
+import cpfMask from '../src/cpf'
 
 describe('cpf mask', () => {
 	test('should be format cpf correctly', () => (
