@@ -1,4 +1,4 @@
-import cnpjMask from "../src/cnpj";
+import { cnpjMask } from "../src";
 
 describe('cnpj mask', () => {
   test('should be format cnpj correctly', () => (
