@@ -1,2 +1,2 @@
-module.exports.cpfMask = require('./cpf-mask')
-module.exports.cnpjMask = require('./cnpj-mask')
+module.exports.cpfMask = require('./cpf')
+module.exports.cnpjMask = require('./cnpj')
