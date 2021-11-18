@@ -10,7 +10,8 @@
     "build": "babel src -d build",
     "test": "jest",
     "test:watch": "npm test -- --watch",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "lintfix": "eslint src --fix --cache"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
@@ -21,6 +22,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.2.4",
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "^27.3.1",
     "prettier": "^2.4.1",
