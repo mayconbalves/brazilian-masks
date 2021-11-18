@@ -22,7 +22,8 @@
     "test": "jest",
     "test:watch": "npm test -- --watch",
     "prepublish": "npm run build",
-    "lintfix": "eslint src --fix --cache"
+    "lintfix": "eslint src --fix --cache",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
@@ -35,6 +36,7 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jest": "^25.2.4",
     "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.0",
     "jest": "^27.3.1",
     "prettier": "^2.4.1",
     "watch": "^1.0.2"
