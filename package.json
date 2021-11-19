@@ -47,9 +47,11 @@
     "npm": "~7.11.2"
   },
   "lint-staged": {
-    "src/**/*": [
-      "npm lint",
-      "npm test"
+    "src/*.js": [
+      "npm run lint"
+    ],
+    "test/": [
+      "npm rum test"
     ]
   }
 }
