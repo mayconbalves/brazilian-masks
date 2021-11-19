@@ -32,6 +32,11 @@ const { cepMask } = require('brazilian-mask')
 cepMask('29050425') //=> '29050-425'
 ```
 
+```js
+const { rgMask } = require('brazilian-mask')
+rgMask('423198373') //=> '42.319.837-3'
+```
+
 ## License
 
 MIT &copy; Maycon Alves
